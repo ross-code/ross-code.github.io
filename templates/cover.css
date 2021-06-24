@@ -94,3 +94,7 @@ section .ross {
   border: 1px solid #333;
   padding: 8px;
 }
+
+#btn-light {
+  width: 50%;
+}
