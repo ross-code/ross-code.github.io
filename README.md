@@ -1,2 +1,3 @@
 # ross-code.github.io
-This is the personal portfolio site for Ross Zeiger.
+
+This is Ross Zeiger's personal portfolio website.
