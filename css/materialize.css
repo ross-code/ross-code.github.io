@@ -2163,6 +2163,8 @@ html {
  */
 body {
   margin: 0;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
 /**
@@ -2606,7 +2608,7 @@ ul:not(.browser-default) > li {
 }
 
 a {
-  color: #039be5;
+  color: #ffffff;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -8389,10 +8391,10 @@ input[type=range]::-ms-thumb {
 }
 
 .carousel.carousel-slider .carousel-item {
-  width: 100%;
+  width: 150%;
   height: 100%;
   min-height: 400px;
-  position: absolute;
+  position: center;
   top: 0;
   left: 0;
 }
@@ -8417,7 +8419,8 @@ input[type=range]::-ms-thumb {
 }
 
 .carousel .carousel-item > img {
-  width: 100%;
+  width: 200%;
+  position: absolute;
 }
 
 .carousel .indicators {
