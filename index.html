@@ -12,6 +12,24 @@
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
       <script src="https://kit.fontawesome.com/b5621d315f.js" crossorigin="anonymous"></script>
+
+      <!-- Google tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6QBG24FZ13">
+        </script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-6QBG24FZ13');
+        </script>
+
+        <!-- Calendly badge widget begin -->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+        <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/ross-zeiger/30min', text: 'Schedule time with me', color: '#1a1a1a', textColor: '#ffffff', branding: true }); }</script>
+        <!-- Calendly badge widget end -->
+
     </head>
 
     <body class="card-panel grey" style="background-color: #212529!important; color:lightgrey">
@@ -39,7 +57,7 @@
                   <a href="#main"><span class="white-text name">Ross Zeiger</span></a>
                   <a href="mailto:ross@rosszeiger.com"><span class="white-text email">ross@rosszeiger.com</span></a>
                 </div></li>
-                <li><a href="#projects"><i class="material-icons">code</i>Projects</a></li>
+                <!-- <li><a href="#projects"><i class="material-icons">code</i>Projects</a></li> -->
                 <li><a href="#aboutme"><i class="material-icons">person</i>About</a></li>
                 <li><a href="https://rosszeiger.substack.com"><i class="material-icons">keyboard</i>Essays</a></li>
                 <li><a href="#contact"><i class="material-icons">email</i>Contact</a></li>
@@ -65,32 +83,46 @@
             <h3>Business Broker - Business Owner - M&A Advisor</h3>
             <!-- <p>Software Engineer, Business Owner, and honorably discharged Marine Corps officer leveraging 7 years of management, technical, and business expertise.</p> -->
             <a href="#projects"><i class="material-icons large">keyboard_arrow_down</i></a>
+            <a href="#services"><i class="material-icons large">keyboard_arrow_down</i></a>
         </main>
 
+        <!-- SERVICES HERE -->
+        <div class="services"></div>
 
-        <!-- PROJECT CODE HERE -->
-        <div class="projects"></div>
-
-            <!-- INPUT PROJECTS HERE -->
-            <section id="projects" class='center'>
-                <h2>Coding Projects</h2>
-                <div class="carousel">
-                    <a class="carousel-item" href="https://github.com/ross-code/pupdates" class="btn tooltipped" data-position="bottom" data-tooltip="Created with Django: Python, HTML, CSS, and JavaScript"><img src="resources/Screen Shot 2021-09-09 at 12.16.43 PM.png">Pupdates: Dog Adoption Software</a>
-                    <a class="carousel-item" href="https://github.com/ross-code/KindleHighlightAggregator"><img src="resources/kha.png">Kindle Highlight Aggregator</a>
-                    <a class="carousel-item" href="https://github.com/ross-code/citymatchtool"><img src="resources/citymatch.png">City Match Tool</a>
-                    <a class="carousel-item" href="https://github.com/ross-code/pokedex"><img src="resources/pokedex.png">Pokedex</a>
-                    <a class="carousel-item" href="https://github.com/ross-code"><img src="resources/github.png">Ross' GitHub</a>
-                </div>
+            <!-- INPUT SERVICES HERE -->
+            <section id="services" class='center'>
+                <h2>Services</h2>
+                <p>
+                    I help people buy businesses around the United States. I am particularly passionate about helping immigrants enter the United States through the E-2 Visa.
+                </p>
                 <a href="#aboutme"><i class="material-icons large">keyboard_arrow_down</i></a>
             </section>
         </div>
 
+
+        <!-- PROJECT CODE HERE -->
+        <!-- <div class="projects"></div> -->
+
+            <!-- INPUT PROJECTS HERE -->
+            <!-- <section id="projects" class='center'> -->
+                <!-- <h2>Coding Projects</h2> -->
+                <!-- <div class="carousel"> -->
+                    <!-- <a class="carousel-item" href="https://github.com/ross-code/pupdates" class="btn tooltipped" data-position="bottom" data-tooltip="Created with Django: Python, HTML, CSS, and JavaScript"><img src="resources/Screen Shot 2021-09-09 at 12.16.43 PM.png">Pupdates: Dog Adoption Software</a> -->
+                    <!-- <a class="carousel-item" href="https://github.com/ross-code/KindleHighlightAggregator"><img src="resources/kha.png">Kindle Highlight Aggregator</a> -->
+                    <!-- <a class="carousel-item" href="https://github.com/ross-code/citymatchtool"><img src="resources/citymatch.png">City Match Tool</a> -->
+                    <!-- <a class="carousel-item" href="https://github.com/ross-code/pokedex"><img src="resources/pokedex.png">Pokedex</a> -->
+                    <!-- <a class="carousel-item" href="https://github.com/ross-code"><img src="resources/github.png">Ross' GitHub</a> -->
+                <!-- </div> -->
+                <!-- <a href="#aboutme"><i class="material-icons large">keyboard_arrow_down</i></a> -->
+            <!-- </section> -->
+        <!-- </div> -->
+
         <!-- ABOUT SECTION -->
         <div class="center">
         <h2 id='aboutme'>About</h2>
-        <p>Based in Austin, Texas.</p>
-        <p>Business broker, business owner, and M&A advisor based in Austin, Texas.</p>
-            <p>Marine Corps officer veteran</p>
+        <!-- <p>Based in Austin, Texas.</p> -->
+        <p>Business broker, business owner, and M&A advisor in Austin, Texas.</p>
+        <p>Marine Corps officer veteran</p>
         <!-- <p>Competencies: Python, JavaScript, HTML, CSS, Vue.JS, Django, Git, command line, Mac/Windows/Linux OS</p> -->
         <!-- <p>Currently learning: C++ and React</p> -->
         <!-- <p>Currently learning: C++ and React</p> -->
@@ -104,12 +136,13 @@
                 <h2>Contact</h2>
                 <a href="https://www.linkedin.com/in/ross-zeiger/" class="btn tooltipped" data-position="bottom" data-tooltip="Ross' LinkedIn"><i class="fab fa-linkedin" style="font-size: 48px;"></i></a>
                 <a href="https://twitter.com/ross_zeiger" class="btn tooltipped" data-position="bottom" data-tooltip="Ross' Twitter"><i class="fab fa-twitter" style="font-size: 48px;"></i></a>
-                <!-- <a href="https://github.com/ross-code" class="btn tooltipped" data-position="bottom" data-tooltip="Ross' GitHub"><i class="fab fa-github" style="font-size: 48px;"></i></a> -->
+                <a href="https://www.youtube.com/channel/UCGSlSWGbcPC4qURzdUcQWGA" class="btn tooltipped" data-position="bottom" data-tooltip="Ross on YouTube"><i class="fab fa-youtube" style="font-size: 48px;"></i></a>
                 <a href="mailto:ross@rosszeiger.com" class="btn tooltipped" data-position="bottom" data-tooltip="Send Ross an email"><i class="fas fa-envelope" style="font-size: 48px;"></i></a>
+                <!-- <a href="https://github.com/ross-code" class="btn tooltipped" data-position="bottom" data-tooltip="Ross' GitHub"><i class="fab fa-github" style="font-size: 48px;"></i></a> -->
             </div>
 
         <footer>
-            <p>© 2022 Ross Zeiger. All rights reserved.</p>
+            <p>© 2023 Ross Zeiger. All rights reserved.</p>
         </footer>
             
 
