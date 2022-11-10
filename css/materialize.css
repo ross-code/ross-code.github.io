@@ -2615,6 +2615,10 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
+p {
+  margin: 1em;
+}
+
 .valign-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
