@@ -12,14 +12,80 @@
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
       <script src="https://kit.fontawesome.com/b5621d315f.js" crossorigin="anonymous"></script>
-        
+
       <style>
         .center {
-        width: 50%;
-        margin: 0 auto;
-        text-align: center;
+          width: 50%;
+          margin: 0 auto;
+          text-align: center;
         }
-      </style>
+        </style>
+
+<style>
+    .sidenav {
+      background-color: #333;
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      overflow-x: hidden;
+      padding-top: 60px;
+    }
+  
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+  
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+  
+    .sidenav .user-view {
+      padding: 16px 16px;
+      text-align: center;
+    }
+  
+    .sidenav .user-view img {
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+    }
+  
+    .sidenav .user-view .name {
+      font-size: 20px;
+      margin-top: 8px;
+    }
+  
+    .sidenav .user-view .email {
+      font-size: 14px;
+      color: #ccc;
+      margin-top: 8px;
+    }
+  
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+  
+    .sidenav-trigger {
+      cursor: pointer;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 2;
+    }
+  </style>
 
       <!-- Google tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-6QBG24FZ13">
@@ -47,8 +113,30 @@
 
         <header id='top'>
 
-            <div class="navbar">
-                <!-- <nav>
+            <ul id="slide-out" class="sidenav">
+                <li>
+                  <div class="user-view">
+                    <a href="#main">
+                      <img class="circle" src="resources/ross-website.jpg" style="border-radius: 50%; width: 80px; height: 80px; object-fit: cover;">
+                    </a>
+                    <a href="#main">
+                      <span class="name">Ross Zeiger</span>
+                    </a>
+                    <a href="mailto:ross@rosszeiger.com">
+                      <span class="email">ross@rosszeiger.com</span>
+                    </a>
+                  </div>
+                </li>
+                <li><a href="#aboutme"><i class="material-icons">person</i>About</a></li>
+                <li><a href="https://rosszeiger.substack.com" target="_blank"><i class="material-icons">keyboard</i>Newsletter</a></li>
+                <li><a href="https://anchor.fm/rosszeiger" target="_blank"><i class="material-icons">microphone</i>Podcast</a></li>
+                <li><a href="https://ross-school-b9fc.thinkific.com/enroll/2281901?price_id=3056943" target="_blank"><i class="material-icons">books</i>Business Buying Course</a></li>
+                <li><a href="now.html"><i class="material-icons">location_on</i>Now Page</a></li>
+                <li><a href="#contact"><i class="material-icons">email</i>Contact</a></li>
+              </ul>              
+
+            <!-- <div class="navbar">
+                <nav>
                   <div class="nav-wrapper black">
                     <a href="#top" class="brand-logo">Ross Zeiger</a>
                     <ul class="right hide-on-med-and-down">
@@ -58,7 +146,7 @@
                     </ul>
                   </div>
                 </nav> -->
-            
+<!--             
               <ul id="slide-out" class="sidenav">
                 <li><div class="user-view">
                   <div class="background">
@@ -68,7 +156,6 @@
                   <a href="#main"><span class="white-text name">Ross Zeiger</span></a>
                   <a href="mailto:ross@rosszeiger.com"><span class="white-text email">ross@rosszeiger.com</span></a>
                 </div></li>
-                <!-- <li><a href="#projects"><i class="material-icons">code</i>Projects</a></li> -->
                 <li><a href="#aboutme"><i class="material-icons">person</i>About</a></li>
                 <li><a href="https://rosszeiger.substack.com" target="_blank"><i class="material-icons">keyboard</i>Newsletter</a></li>
                 <li><a href="https://anchor.fm/rosszeiger" target="_blank"><i class="material-icons">microphone</i>Podcast</a></li>
@@ -78,7 +165,7 @@
               </ul>
               <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons medium">menu</i></a>
             
-            </div>
+            </div> -->
 
         </header>
 
