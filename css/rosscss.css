@@ -71,3 +71,53 @@ footer {
   text-align: center;
 }
 
+.navbar {
+    background-color: #333;
+    height: 60px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .brand-logo {
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+  }
+  
+  .sidenav-trigger {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .sidenav img {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .sidenav li {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
